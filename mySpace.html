@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>About Me - Titus</title>
+</head>
+
+
+
+
+
+<style>body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #F3F4F6;
+  color: #111;
+}
+
+header {
+  background-color: #1E3A8A;
+  color: bisque;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: bisque;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: "sidebar main";
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+aside {
+  grid-area: sidebar;
+  background: #E0F2FE;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+main {
+  grid-area: main;
+}
+
+h2 {
+  background-color: #1E3A8A;
+  color: bisque;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hobby-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.hobby-grid div {
+  background: #19459cf8;
+  color: rgb(5, 3, 10);
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+footer {
+  background: #1E3A8A;
+  color: bisque;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #0c368aef;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #0c0593ce;
+}
+</style>
+<body>
+  
+  <header>
+    <h1>ATSOU TITUS</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#facts">Quick Facts</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <div class="container">
+    
+    <aside>
+      <h3>Fun Fact</h3>
+      <p>This page is styled with CSS Grid and Flexbox for a modern layout showed in class.</p>
+    </aside>
+
+    
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="WhatsApp Image 2026-09-21 at 11.52.21 AM.jpeg" alt="Width="500 height="250">
+        <p> Hello,I'm Titus, someone who's passionate about ICT ethics, cybercrime, and security, but also enjoys the lighter side of  organizing school events and making sure everything runs smoothly.<br> I've picked up skills in troubleshooting and networking, especially with Cisco Packet Tracer, and I love using tools like Canva and PowerPoint to turn ideas into clear, engaging presentations.<br> I'm curious about aviation and always exploring how technology can make everyday tasks smarter and more human-centered. At the end of the day, I’m driven by learning, creating, and finding ways to bring both structure and creativity into whatever I do, while keeping things friendly and approachable</p>
+
+      </section>
+
+      <section id="facts">
+        <h2>Quick Facts</h2>
+        <table>
+  <tr>
+    <th>Category </th>
+    <th>Details</th>
+    
+  </tr>
+  <tr>
+    <td>Role</td>
+    <td>Student, Events manager,Sporty</td>
+    
+  </tr>
+  <tr>
+    <td>INSTITUTION</td>
+    <td>WIUC</td>
+    
+  </tr>
+  <tr>
+    <td>Focus Area</td>
+    <td>networking</td>
+    
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td>amenatsou261@gmail.com</td>
+    
+  </tr>
+  
+ 
+</table>
+      </section>
+
+      <section id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <div class="hobby-grid">
+          <div>Swimming</div>
+          <div>Football</div>
+          <div>Anime & Comics</div>
+          <div>Learning New Tech</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  
+  <footer>
+    <p></p>
+    <p>© 2026 ATSOU Titus. Built for ITW 205,WIUC.</p>
+  <a href="mailto:amenatsou261@gmail.com ">amenatsou261@gmail.com </a>
+</footer>
+</body>
+</html>
